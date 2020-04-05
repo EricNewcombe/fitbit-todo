@@ -1,0 +1,15 @@
+{
+  "fitbit": {
+    "appType": "app",
+    "wipeColor": "#8bc34a",
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ]
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}
