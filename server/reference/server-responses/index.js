@@ -13,8 +13,11 @@ module.exports = {
         ACCOUNT_NOT_FOUND: { status: 400, message: "Account was unable to be found" },
         ERROR_SAVING_USER_TO_DATABASE: { status: 500, message: "An error occurred while saving user to the database." },
         UNKNOWN_ERROR: { status: 500, message: "An unknown error has occurred" },
+        INVALID_USERNAME_OR_PASSWORD: { status: 400, message: "Invalid username or password." },
+        PASSWORD_COMPARE_ERROR: { status: 500, message: "Error comparing passwords."}
     },
     SUCCESS_MESSAGES : {
-        ACCOUNT_CREATED_SUCCESSFULLY: "Account was successfully created"
+        ACCOUNT_CREATED_SUCCESSFULLY: "Account was successfully created",
+        SUCCESSFUL_LOGIN: "Successfully logged in."
     }
 }
