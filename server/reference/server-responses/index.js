@@ -15,7 +15,9 @@ module.exports = {
         UNKNOWN_ERROR: { status: 500, message: "An unknown error has occurred" },
         INVALID_USERNAME_OR_PASSWORD: { status: 400, message: "Invalid username or password." },
         PASSWORD_COMPARE_ERROR: { status: 500, message: "Error comparing passwords."},
-        ERROR_GENERATING_RESET_TOKEN: { status: 500, message: "An error occurred while generating a reset token" }
+        ERROR_GENERATING_RESET_TOKEN: { status: 500, message: "An error occurred while generating a reset token" },
+        ERROR_SAVING_RESET_TOKEN: { status: 500, message: "An error occurred while saving a reset token" },
+        EMAIL_DOES_NOT_EXIST: { status: 200, message: "An email with a reset link has been sent if the email exists in our system."}
     },
     SUCCESS_MESSAGES : {
         ACCOUNT_CREATED_SUCCESSFULLY: "Account was successfully created",
