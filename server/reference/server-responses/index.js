@@ -14,10 +14,12 @@ module.exports = {
         ERROR_SAVING_USER_TO_DATABASE: { status: 500, message: "An error occurred while saving user to the database." },
         UNKNOWN_ERROR: { status: 500, message: "An unknown error has occurred" },
         INVALID_USERNAME_OR_PASSWORD: { status: 400, message: "Invalid username or password." },
-        PASSWORD_COMPARE_ERROR: { status: 500, message: "Error comparing passwords."}
+        PASSWORD_COMPARE_ERROR: { status: 500, message: "Error comparing passwords."},
+        ERROR_GENERATING_RESET_TOKEN: { status: 500, message: "An error occurred while generating a reset token" }
     },
     SUCCESS_MESSAGES : {
         ACCOUNT_CREATED_SUCCESSFULLY: "Account was successfully created",
-        SUCCESSFUL_LOGIN: "Successfully logged in."
+        SUCCESSFUL_LOGIN: "Successfully logged in.",
+        EMAIL_SENT_IF_EXISTS: "An email with a reset link has been sent if the email exists in our system."
     }
 }

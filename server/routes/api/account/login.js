@@ -42,7 +42,7 @@ router.post('/', jsonParser, (req, res) => {
             
             // generate token and send it in a response object if valid
             let token = jwt.sign({ user_id: user.user_id }, settings.JWT_SECRET)
-            res.status(200).json( { message: SUCCESS_MESSAGES.SUCCESSFUL_LOGIN, token} );
+            res.status(200).json( { message: SUCCESS_MESSAGES.SUCCESSFUL_LOGIN, token } );
         });
     })
     
